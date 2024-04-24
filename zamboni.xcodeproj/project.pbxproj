@@ -8,18 +8,48 @@
 
 /* Begin PBXBuildFile section */
 		5325CCDD2BD70B6200E039D2 /* zamboniApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5325CCDC2BD70B6200E039D2 /* zamboniApp.swift */; };
-		5325CCDF2BD70B6200E039D2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5325CCDE2BD70B6200E039D2 /* ContentView.swift */; };
+		5325CCDF2BD70B6200E039D2 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5325CCDE2BD70B6200E039D2 /* HomeView.swift */; };
 		5325CCE12BD70B6300E039D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5325CCE02BD70B6300E039D2 /* Assets.xcassets */; };
 		5325CCE52BD70B6300E039D2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5325CCE42BD70B6300E039D2 /* Preview Assets.xcassets */; };
+		5325CCF22BD70D8E00E039D2 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5325CCF12BD70D8E00E039D2 /* APIService.swift */; };
+		5325CCF42BD70FD800E039D2 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5325CCF32BD70FD800E039D2 /* LoginView.swift */; };
+		5325CCF62BD7105900E039D2 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5325CCF52BD7105900E039D2 /* LoginViewModel.swift */; };
+		5325CCF82BD7126300E039D2 /* GamesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5325CCF72BD7126300E039D2 /* GamesViewModel.swift */; };
+		535606652BD745660020A197 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 535606642BD745660020A197 /* Game.swift */; };
+		535606672BD7D57F0020A197 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 535606662BD7D57F0020A197 /* GameView.swift */; };
+		535606692BD7D5880020A197 /* GameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 535606682BD7D5880020A197 /* GameViewModel.swift */; };
+		5356066D2BD7DC9B0020A197 /* StreamView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5356066C2BD7DC9B0020A197 /* StreamView.swift */; };
+		5356066F2BD7DCAC0020A197 /* StreamViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5356066E2BD7DCAC0020A197 /* StreamViewModel.swift */; };
+		535606722BD7EBBD0020A197 /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 535606712BD7EBBD0020A197 /* PlayerViewController.swift */; };
+		535606742BD80AEB0020A197 /* GamesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 535606732BD80AEB0020A197 /* GamesView.swift */; };
+		535606762BD80AF40020A197 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 535606752BD80AF40020A197 /* SettingsView.swift */; };
+		535606782BD80DD20020A197 /* SettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 535606772BD80DD20020A197 /* SettingsViewModel.swift */; };
+		5356067B2BD81AD50020A197 /* SettingsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5356067A2BD81AD50020A197 /* SettingsService.swift */; };
+		5356067D2BD82A120020A197 /* PlainDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5356067C2BD82A120020A197 /* PlainDate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5325CCD92BD70B6200E039D2 /* zamboni.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = zamboni.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5325CCDC2BD70B6200E039D2 /* zamboniApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = zamboniApp.swift; sourceTree = "<group>"; };
-		5325CCDE2BD70B6200E039D2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5325CCDE2BD70B6200E039D2 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		5325CCE02BD70B6300E039D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5325CCE22BD70B6300E039D2 /* zamboni.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = zamboni.entitlements; sourceTree = "<group>"; };
 		5325CCE42BD70B6300E039D2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5325CCF12BD70D8E00E039D2 /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		5325CCF32BD70FD800E039D2 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		5325CCF52BD7105900E039D2 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
+		5325CCF72BD7126300E039D2 /* GamesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamesViewModel.swift; sourceTree = "<group>"; };
+		535606642BD745660020A197 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		535606662BD7D57F0020A197 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		535606682BD7D5880020A197 /* GameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewModel.swift; sourceTree = "<group>"; };
+		5356066C2BD7DC9B0020A197 /* StreamView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreamView.swift; sourceTree = "<group>"; };
+		5356066E2BD7DCAC0020A197 /* StreamViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreamViewModel.swift; sourceTree = "<group>"; };
+		535606712BD7EBBD0020A197 /* PlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerViewController.swift; sourceTree = "<group>"; };
+		535606732BD80AEB0020A197 /* GamesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamesView.swift; sourceTree = "<group>"; };
+		535606752BD80AF40020A197 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		535606772BD80DD20020A197 /* SettingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewModel.swift; sourceTree = "<group>"; };
+		5356067A2BD81AD50020A197 /* SettingsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsService.swift; sourceTree = "<group>"; };
+		5356067C2BD82A120020A197 /* PlainDate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlainDate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,8 +82,13 @@
 		5325CCDB2BD70B6200E039D2 /* zamboni */ = {
 			isa = PBXGroup;
 			children = (
+				535606792BD81ACA0020A197 /* Settings */,
+				535606702BD7EBA90020A197 /* ViewController */,
+				5325CCF02BD70D6C00E039D2 /* API Service */,
+				5325CCEF2BD70CFE00E039D2 /* ViewModel */,
+				5325CCEE2BD70CDB00E039D2 /* Model */,
+				5325CCED2BD70CD700E039D2 /* View */,
 				5325CCDC2BD70B6200E039D2 /* zamboniApp.swift */,
-				5325CCDE2BD70B6200E039D2 /* ContentView.swift */,
 				5325CCE02BD70B6300E039D2 /* Assets.xcassets */,
 				5325CCE22BD70B6300E039D2 /* zamboni.entitlements */,
 				5325CCE32BD70B6300E039D2 /* Preview Content */,
@@ -67,6 +102,64 @@
 				5325CCE42BD70B6300E039D2 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5325CCED2BD70CD700E039D2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5325CCDE2BD70B6200E039D2 /* HomeView.swift */,
+				5325CCF32BD70FD800E039D2 /* LoginView.swift */,
+				535606662BD7D57F0020A197 /* GameView.swift */,
+				5356066C2BD7DC9B0020A197 /* StreamView.swift */,
+				535606732BD80AEB0020A197 /* GamesView.swift */,
+				535606752BD80AF40020A197 /* SettingsView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5325CCEE2BD70CDB00E039D2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				535606642BD745660020A197 /* Game.swift */,
+				5356067C2BD82A120020A197 /* PlainDate.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5325CCEF2BD70CFE00E039D2 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				5325CCF52BD7105900E039D2 /* LoginViewModel.swift */,
+				5325CCF72BD7126300E039D2 /* GamesViewModel.swift */,
+				535606682BD7D5880020A197 /* GameViewModel.swift */,
+				5356066E2BD7DCAC0020A197 /* StreamViewModel.swift */,
+				535606772BD80DD20020A197 /* SettingsViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		5325CCF02BD70D6C00E039D2 /* API Service */ = {
+			isa = PBXGroup;
+			children = (
+				5325CCF12BD70D8E00E039D2 /* APIService.swift */,
+			);
+			path = "API Service";
+			sourceTree = "<group>";
+		};
+		535606702BD7EBA90020A197 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				535606712BD7EBBD0020A197 /* PlayerViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		535606792BD81ACA0020A197 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				5356067A2BD81AD50020A197 /* SettingsService.swift */,
+			);
+			path = Settings;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,7 +232,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5325CCDF2BD70B6200E039D2 /* ContentView.swift in Sources */,
+				535606692BD7D5880020A197 /* GameViewModel.swift in Sources */,
+				5325CCDF2BD70B6200E039D2 /* HomeView.swift in Sources */,
+				5356067B2BD81AD50020A197 /* SettingsService.swift in Sources */,
+				535606742BD80AEB0020A197 /* GamesView.swift in Sources */,
+				5325CCF82BD7126300E039D2 /* GamesViewModel.swift in Sources */,
+				5356066F2BD7DCAC0020A197 /* StreamViewModel.swift in Sources */,
+				535606782BD80DD20020A197 /* SettingsViewModel.swift in Sources */,
+				535606652BD745660020A197 /* Game.swift in Sources */,
+				535606722BD7EBBD0020A197 /* PlayerViewController.swift in Sources */,
+				535606762BD80AF40020A197 /* SettingsView.swift in Sources */,
+				5325CCF22BD70D8E00E039D2 /* APIService.swift in Sources */,
+				5325CCF42BD70FD800E039D2 /* LoginView.swift in Sources */,
+				5356067D2BD82A120020A197 /* PlainDate.swift in Sources */,
+				5325CCF62BD7105900E039D2 /* LoginViewModel.swift in Sources */,
+				535606672BD7D57F0020A197 /* GameView.swift in Sources */,
+				5356066D2BD7DC9B0020A197 /* StreamView.swift in Sources */,
 				5325CCDD2BD70B6200E039D2 /* zamboniApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -266,6 +374,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_ENTITLEMENTS = zamboni/zamboni.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -274,6 +383,8 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Zamboni;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.sports";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -282,8 +393,8 @@
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
@@ -292,10 +403,11 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.birarda.zamboni;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "appletvos appletvsimulator iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = "1,2,3";
 			};
 			name = Debug;
 		};
@@ -304,6 +416,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_ENTITLEMENTS = zamboni/zamboni.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
@@ -312,6 +425,8 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Zamboni;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.sports";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
@@ -320,8 +435,8 @@
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
@@ -330,10 +445,11 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.birarda.zamboni;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "appletvos appletvsimulator iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = "1,2,3";
 			};
 			name = Release;
 		};
