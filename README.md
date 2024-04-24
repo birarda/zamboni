@@ -8,5 +8,5 @@ It's in extremely rough shape and basically just working enough to serve my purp
 - There is janky HTTPS proxy support which I use with a wireguarded Privoxy container
 
 The API interaction is only possible thanks to the excellent work already done by some related projects:
-https://github.com/kompot/nhl-tv-geeky-streams
-https://github.com/eracknaphobia/plugin.video.nhlgcl
+- https://github.com/kompot/nhl-tv-geeky-streams
+- https://github.com/eracknaphobia/plugin.video.nhlgcl
